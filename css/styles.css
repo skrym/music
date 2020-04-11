@@ -106,7 +106,7 @@ body {
   display: block;
   background-repeat: no-repeat;
   background-position: center;
-  background: cover;
+  background-size: cover;
   position: relative;
   overflow: hidden;
 }
@@ -124,12 +124,10 @@ body {
 
 .button-colored--var-2 {
   background-image: url("../images/btn-2.jpg");
-  color: #fff;
 }
 
 .button-colored--var-3 {
   background-image: url("../images/btn-3.jpg");
-  color: #fff;
 }
 
 .button-colored::before {
@@ -503,7 +501,7 @@ body {
   background: url("../images/disco-bg-mobile.jpg") no-repeat bottom center;
   background-size: contain;
   padding-bottom: 450px;
-  padding-top: 200px;
+  padding-top: 1px;
 }
 
 @media (min-width: 1024px) {
@@ -546,10 +544,6 @@ body {
     font-size: 15px;
     text-align: justify;
   }
-}
-
-.compositions {
-  font-size: 30px;
 }
 
 .contact h1 {
