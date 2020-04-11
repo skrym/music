@@ -47,4 +47,9 @@
       width: calc(100% + 30px);
     }
   }
+
+  &__text {
+    position: relative;
+    z-index: 1;
+  }
 }
